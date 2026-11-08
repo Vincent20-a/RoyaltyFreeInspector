@@ -1,6 +1,0 @@
-#!/bin/sh
-HERE="$(dirname "$(readlink -f "$0")")"
-# Cartella di lavoro scrivibile: i report vengono salvati in reports/
-DOCS="${XDG_DOCUMENTS_DIR:-$HOME/Documents}/RoyaltyFree Inspector"
-mkdir -p "$DOCS/reports" 2>/dev/null && cd "$DOCS"
-exec "$HERE/usr/lib/RoyaltyFreeInspector/RoyaltyFreeInspector" "$@"

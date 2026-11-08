@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=RoyaltyFree Inspector
-Comment=Verifica provenienza e licenza dei contenuti
-Exec=RoyaltyFreeInspector
-Icon=RoyaltyFreeInspector
-Categories=Utility;Office;
-Terminal=false
